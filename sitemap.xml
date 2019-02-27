@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://howchanghong.github.io/posts/emptiness-is-not-nothingness/</loc>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://howchanghong.github.io/posts/new-blog/</loc>
     <lastmod>2019-02-24T00:00:00+00:00</lastmod>
   </url>
@@ -24,13 +29,13 @@
   
   <url>
     <loc>https://howchanghong.github.io/tags/blog/</loc>
-    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://howchanghong.github.io/</loc>
-    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -44,6 +49,12 @@
   </url>
   
   <url>
+    <loc>https://howchanghong.github.io/tags/quote/</loc>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://howchanghong.github.io/tags/story/</loc>
     <lastmod>2017-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -51,7 +62,7 @@
   
   <url>
     <loc>https://howchanghong.github.io/tags/</loc>
-    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
