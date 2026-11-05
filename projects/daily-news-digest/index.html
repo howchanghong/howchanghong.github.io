@@ -27,6 +27,16 @@
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
 
+<style>
+/* The site stylesheet sets paragraphs to display:inline, which ran every
+   story together. These rules restore one separated block per story. */
+#content .story { display: block; margin-bottom: 1.5em; }
+#content .story a { display: block; margin-bottom: 0.25em; }
+#content .story p { display: block; margin-bottom: 0; }
+#content details { display: block; margin-bottom: 1.5em; }
+#content summary { margin-bottom: 0.5em; }
+</style>
+
 
 
     <title>
@@ -128,13 +138,16 @@ fetch('digest.json', { cache: 'no-store' })
         details.appendChild(empty);
       } else {
         category.stories.forEach(function (story) {
+          var storyDiv = document.createElement('div');
+          storyDiv.className = 'story';
           var link = document.createElement('a');
           link.href = story.url;
           link.textContent = story.title;
-          details.appendChild(link);
+          storyDiv.appendChild(link);
           var p = document.createElement('p');
           p.textContent = story.summary + (story.why ? ' Why it matters: ' + story.why : '');
-          details.appendChild(p);
+          storyDiv.appendChild(p);
+          details.appendChild(storyDiv);
         });
       }
       container.appendChild(details);
